@@ -1,0 +1,8 @@
+{
+  "name": "MercadoPagoIonic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "de92ea7b"
+}
