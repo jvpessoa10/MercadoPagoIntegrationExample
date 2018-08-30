@@ -7,7 +7,7 @@ Primeiro é necessario importar o SDK do mercadopago, que pode ser feito diretam
   <script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
 ```
 
-Após a importação, será necessário configurar a chave publica para poder consumir os serviços da API
+Após a importação, será necessário configurar a chave publica para poder consumir os serviços da API. A chave publica esta disponivel para todos os vendedores no dashboard do mercadopago
 
 ```html
   <script>
