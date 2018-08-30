@@ -1,43 +1,43 @@
 <form id="pay">
-    <ion-list>
-        <ion-item>
-          <ion-label color="primary">Email:</ion-label>
-          <ion-input id="email" name="email"  type="email" placeholder="your email"></ion-input>
+  <ion-list>
+  <ion-item>
+    <ion-label color="primary">Email:</ion-label>
+    <ion-input id="email" name="email"  type="email" value="jvpessoa10@hotmail.com" placeholder="your email"></ion-input>
+  </ion-item>
+  <ion-item>
+      <ion-label color="primary">Nome:</ion-label>
+      <ion-input type="text" id="cardholderName" value="João Victor Pessoa" data-checkout="cardholderName" ></ion-input>
+  </ion-item>
+  <ion-item>
+      <ion-label color="primary">Numero do cartão de credito:</ion-label>
+      <ion-input type="text" id="cardNumber" data-checkout="cardNumber" placeholder="0000 0000 0000 0000"  value="4509 9535 6623 3704"></ion-input>
+    </ion-item>
+    <ion-item>
+        <ion-label color="primary">Codigo secreto:</ion-label>
+        <ion-input type="text" id="securityCode" data-checkout="securityCode" value="142" placeholder="123" ></ion-input>
+      </ion-item>
+      <ion-item>
+          <ion-label color="primary">Mes de expiração:</ion-label>
+          <ion-input type="text" id="cardExpirationMonth" data-checkout="cardExpirationMonth" value="07" placeholder="12" ></ion-input>
         </ion-item>
         <ion-item>
-            <ion-label color="primary">Nome:</ion-label>
-            <ion-input type="text" id="cardholderName" data-checkout="cardholderName" ></ion-input>
+            <ion-label color="primary">Ano de expiração:</ion-label>
+            <ion-input type="text" id="cardExpirationYear" data-checkout="cardExpirationYear" value="2020" placeholder="2015" ></ion-input>
+        </ion-item>
+
+        
+        <ion-item>
+            <ion-label color="primary">Document Type:</ion-label>
+            <ion-input  id="docType" data-checkout="docType" value="CPF" ></ion-input>
         </ion-item>
         <ion-item>
-            <ion-label color="primary">Numero do cartão de credito:</ion-label>
-            <ion-input type="text" id="cardNumber" data-checkout="cardNumber" placeholder="0000 0000 0000 0000"></ion-input>
-          </ion-item>
-          <ion-item>
-              <ion-label color="primary">Codigo secreto:</ion-label>
-              <ion-input type="text" id="securityCode" data-checkout="securityCode" placeholder="123" ></ion-input>
-            </ion-item>
-            <ion-item>
-                <ion-label color="primary">Mes de expiração:</ion-label>
-                <ion-input type="text" id="cardExpirationMonth" data-checkout="cardExpirationMonth" placeholder="12" ></ion-input>
-              </ion-item>
-              <ion-item>
-                  <ion-label color="primary">Ano de expiração:</ion-label>
-                  <ion-input type="text" id="cardExpirationYear" data-checkout="cardExpirationYear" placeholder="2015" ></ion-input>
-              </ion-item>
-      
-              
-              <ion-item>
-                  <ion-label color="primary">Document Type:</ion-label>
-                  <ion-input id="docType" data-checkout="docType" ></ion-input>
-              </ion-item>
-              <ion-item>
-                  <ion-label color="primary">Document number</ion-label>
-                  <ion-input type="text" id="docNumber" data-checkout="docNumber" placeholder="12345678"></ion-input>
-              </ion-item>
-        <ion-item>
-          <button onclick="procede(this.form)" ion-button>Continuar</button> 
+            <ion-label color="primary">Document number</ion-label>
+            <ion-input type="text" id="docNumber" data-checkout="docNumber" value="11749620464" placeholder="12345678"></ion-input>
         </ion-item>
-      </ion-list>
-      
+  <ion-item>
+    <button onclick="procede(this.form)" ion-button>Continuar</button> 
+  </ion-item>
+</ion-list>
+
 </form>
 
